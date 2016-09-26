@@ -1,0 +1,220 @@
+<html>
+
+<style>
+.cheese {
+  color: #B5A642;
+}
+.body-text {
+  color: white;
+}
+body {
+  background-color: #1a1a1a;
+}
+h1 {
+  font-family: "arial";
+  font-style: italic
+}
+h2 {
+  font-family: "Helvetica";
+  color: #CCCCFF
+}
+.nice {
+  font-family: Verdana, Geneva, sans-serif;;
+  color: #CCCCFF
+}
+.resize {
+  width: 222px;
+  height: auto;
+}
+.target-resize {
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 10px;
+}
+.thin-gray-border {
+  border-width: 0px;
+  border-style: solid;
+  border-radius: 100px;
+}
+
+/* grid system via getbootstrap.com/examples/grid/grid.css */
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+h4 {
+  margin-top: 25px;
+}
+.row {
+  margin-bottom: 20px;
+}
+.row .row {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+/* Change the border pixels back to gain column scaling */
+[class*="col-"] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #eee;
+  border: 0px solid #ddd;
+  background-color: #1a1a1a;
+  border: 0px solid black;
+}
+
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+/* Top code thanks to code pen, and the bottom thanks to some stranger on stack overflow */
+</style>
+
+<body>
+
+<!-- Block 0 -->
+<div class="container-fluid">
+  <h1 class="cheese text-primary text-center">Cheese World</h1>
+  <div class="row">
+      <div class="col-xs-4">
+         <img class="resize thin-gray-border" src="http://deliciousfoodandwine.com/wp-content/uploads/2015/03/Dollarphotoclub_53674521.jpg"/>
+    </div>
+      <div class="col-xs-4">
+        <h4 class="nice body-text">Cool Cheese</h4>
+        <div class="well">
+          <button type="buton" class="btn btn-warning target"><a href="#jump1">Chedder</a></button>
+          <button type="button" class="btn btn-warning target"><a href="#jump2">Swiss</a></button>
+          <button type="button" class="btn btn-warning target"><a href="#jump3">bleu</a></button>
+        </div>
+    </div>
+      <div class="col-xs-4">
+        <h4 class="nice body-text">Cooler Cheese</h4>
+        <div class="well">
+          <button type="buton" class="btn btn-warning target"><a href="#jump4">Provalone</a></button>
+          <button type="button" class="btn btn-warning target"><a href="#jump5">Brie</a></button>
+          <button type="button" class="btn btn-warning target"><a href="#jump6">Mozerella</a></button>
+        </div>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<!-- Block 1 -->
+
+<div id="Cheese1">
+<div class="container-fluid">
+  <h2>Chedder</h2>
+  <div class="row">
+    <div class="col-xs-4">
+      <img class="target-resize" style="width: 300px; height: 200px;" src="http://www.splendidtable.org/sites/default/files/styles/lede_image/public/470340853.jpg?itok=7acsHkTk"/>
+    </div>
+    <div class="col-xs-8">
+      <h3 class="body-text">The Big Cheese</h3>
+      <p class="body-text"><a name="jump1">This cheese</a> is a very interesting cheese in that it came from a mamal that produces milk. All cheese comes from mamals, but not all mamals come from cheese. #Science. <a href="https://en.wikipedia.org/wiki/Cheese">Blatant insert of Required Material</a></p>
+    </div>
+  </div>
+</div>
+</div>
+
+<hr>
+
+<!-- Block 2 -->
+
+<div id="Cheese2">
+<div class="container-fluid">
+  <h2>Swiss</h2>
+  <div class="row">
+    <div class="col-xs-4">
+      <img class="target-resize" style="width: 200px; height: 200px;" src="http://cliparts.co/cliparts/pTo/5b9/pTo5b9Mgc.jpg"/>
+    </div>
+    <div class="col-xs-8">
+      <h3 class="body-text">Hey! Look at This! ==> Made You Look</h3>
+      <p class="body-text"><a name="jump2">This cheese</a> is considered a delicacy amoung mice and rats. It is so delicious to them that their precious cheese is used as bait in mousetraps. That whole concept is kinda dark if you think about it too much. Anyways Swiss Cheese has the lowest threshhold for air resistance thanks in part to its many holes. this allows the cheese to be eaten faster. Consequently, it makes for a less than useful life raft.</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<hr>
+
+<!-- Block 3 -->
+
+<div id="Cheese3">
+<div class="container-fluid">
+  <h2>Bleu</h2>
+  <div class="row">
+    <div class="col-xs-4">
+      <img class="target-resize" style="width: 300px; height: 200px;" src="http://blog.lamadeleine.com/files/2012/02/Bleu-Cheese-Dressing.png"/>
+    </div>
+    <div class="col-xs-8">
+      <h3 class="body-text">One Cheese Two Cheese Red Cheese Blue Cheese</h3>
+      <p class="body-text"><a name="jump3">This cheese</a> is by far my least favorite on this list. You must be thinking, "Jacob, if you only had six slots to fill with cheese, why would you pick one that you dislike?" The answer to that question is A) It's easy to spell, and B) because this entire site pretty much qualifies as clickbait. You're just empowering the system by clicking on this. How do you feel?</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<hr>
+
+<!-- Block 4 -->
+
+<div id="Cheese4">
+<div class="container-fluid">
+  <h2>Provalone</h2>
+  <div class="row">
+    <div class="col-xs-4">
+      <img class="target-resize" style="width: 200px; height: 200px;" src="http://goldenagecheese.com/wp-content/uploads/2014/03/prov.jpg"/>
+    </div>
+    <div class="col-xs-8">
+      <h3 class="body-text">This Cheese Often Comes in Circular Slices So Are There Just Tiny Cheese Wheels of This Stuff or What</h3>
+      <p class="body-text"><a name="jump4">This cheese</a> is spelled incorrectly. Sue me.</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<hr>
+
+<!-- Block 5 -->
+
+<div id="Cheese5">
+<div class="container-fluid">
+  <h2>Brie</h2>
+  <div class="row">
+    <div class="col-xs-4">
+      <img class="target-resize" style="width: 200px; height: 200px;" src="http://foods.weneedfun.com/wp-content/uploads/2016/02/Brie-Cheese-2.jpg"/>
+    </div>
+    <div class="col-xs-8">
+      <h3 class="body-text">Who Actually Eats This</h3>
+      <p class="body-text"><a name="jump5">This cheese</a> is really soft and good to eat with crackers, because crackers have the enough structural integrity to hold up their own lives, as well as others. Crackers, while strong, are stiff, and will snap if placed under too much pressure. That is why you need to pair a cracker with only one topping, as overwhelming the cracker could lead to irrepairable physical and psychological damage. Some toppings, like Brie, can be supported by a cracker. But other toppings, like Guacamole, constantly break crackers into pieces because of how dense it is. Which is why guacamole is simply a burden on society, and why we can no longer tolerate its many flaws for its few advantages. Also who eats guac with a cracker. Use a chip like normal people.</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<hr>
+
+<!-- Block 6 -->
+
+<div id="Cheese6">
+<div class="container-fluid">
+  <h2>Mozerella</h2>
+  <div class="row">
+    <div class="col-xs-4">
+      <img class="target-resize" style="width: 200px; height: 200px;" src="http://www.seriouseats.com/images/2014/08/20140819-cheese101-imported-mozzarella-3.jpg"/>
+    </div>
+    <div class="col-xs-8">
+      <h3 class="body-text">Tour of Italy in One Soggy Cheese</h3>
+      <p class="body-text"><a name="jump6">Mama Mia!</a> This formaggio E in Italia, ed e rinforzate Spesso usato per il cibo italiano. Pizza e classificato venire italiano, Quando in Realta e Stato Fatto a venire Chicago O Qualcosa del Genere. Anche "pepperoni" in Realtà non e Una cosa reale. Se si va in Italia e richiedere un "la pizza ai peperoni" che vi portera Una Pizza con peperoni su di Esso, poi educatamente, ma con fermezza CHIEDERE di lasciare il paese.</p>
+      <!-- By the way, if you bothered to look that up in google translate, know that I too used google translate, and unfortunately sarcasm often is lost in translation. -->
+    </div>
+  </div>
+</div>
+</div>
+
+</body>
+</html>
+
+<!-- That's a wrap! -->
